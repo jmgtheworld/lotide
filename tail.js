@@ -1,7 +1,5 @@
-const assertEqual = require('../assertEqual');
-
-let newArray = [];
 const tail = function(input) {
+  let newArray = [];
   if (input.length <= 1) {
     newArray = [];
   } else {
@@ -22,3 +20,5 @@ const tail = function(input) {
 */
 
 module.exports = tail;
+
+
